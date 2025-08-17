@@ -10,6 +10,8 @@ namespace DependencyInjection.Models
             _teacher = teacher;
         }
 
+
+
         public string GetTeacherInfo()
         {
             return _teacher.GetInfo();
